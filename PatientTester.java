@@ -11,5 +11,10 @@ public class PatientTester {
         patientManager.addPatient(patient3);
         patientManager.addPatient(patient4);
         System.out.println(patientManager);
+        patientManager.caffeineAbsorbtion();
+        patientManager.caffeineAbsorbtion();
+        System.out.println(patientManager);
+        patientManager.removePatient(2);
+        System.out.println(patientManager);
     }
 }
